@@ -1,0 +1,20 @@
+# ====================================================================
+# Tang Nano 9K / Gowin Toolchain Gitignore
+# ====================================================================
+
+# 1. Block massive compiled hardware bitstreams and netlists
+*.fs
+*.json
+*.ipc
+
+# 2. Block Toolchain temporary logs and operational reports
+*.log
+*.rpt
+*.txt
+*.vga
+
+# 3. Block system-specific folder clutter
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
