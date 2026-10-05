@@ -1,6 +1,7 @@
 // Drawing Text to Display Example from: https://github.com/sipeed/TangNano-9K-example/blob/main/spi_lcd/src/top.v
 // 1.14 inch 240*135 SPI LCD Test for Tang Nano 9K 
 // 31/08/2026
+// This draws hello on the screen on the middle area of the screen
 
 `timescale 1ps/1ps // <time_unit> / <time_precision> simulation time and time precision is set to 1 picosecond 
 
